@@ -25,7 +25,6 @@ public class OneOfEach {
 			if ((girls > 0) && (boys > 0)){
 				i++;
 			}
-
 		}
 		System.out.println(gender);
 		System.out.println("You made it... and you now have " + sum + " children.");

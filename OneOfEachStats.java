@@ -21,16 +21,13 @@ public class OneOfEachStats {
 	    double totalSum = 0;
 
 		for (int t = 0; t < input; t++){   // this is loop for the number of families.
-
 		    int sum = 0;
 		    int girls = 0;   // girls boolean.
 		    int boys = 0;    // boys boolean.
 
 		    int i = 0;
 		    while (i == 0){    // this is the "boolean" loop for each family.
-
 			    double odds = generator.nextDouble();
-
 			    if (odds >= 0.5){
 				    girls ++;
 			    } else{
@@ -70,7 +67,6 @@ public class OneOfEachStats {
 			} else {
 				System.out.println("The most common number of children is 4 or more.");
 			}
-		}
-		    
+		}	    
 	}
 }
