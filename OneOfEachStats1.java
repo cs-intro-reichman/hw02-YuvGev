@@ -7,7 +7,7 @@
 public class OneOfEachStats1 {
 	public static void main (String[] args) {
 		//// Put your code here
-				int input = Integer.parseInt(args[0]);
+		int input = Integer.parseInt(args[0]);
         int child2 = 0;
 	    int child3 = 0;
 		int child4 = 0;
@@ -21,16 +21,13 @@ public class OneOfEachStats1 {
 
 		    int i = 0;
 		    while (i == 0){    // this is the "boolean" loop for each family.
-
 			    double odds = (Math.random());
-
 			    if (odds >= 0.5){
 				    girls ++;
 			    } else{
 				    boys ++;
 			    }
 			    sum ++;
-
 			    if ((girls > 0) && (boys > 0)){    // checking if the boolean is true.
 
 				    if (sum == 2){                 // adding the stats.
